@@ -1,0 +1,426 @@
+#socialMedia{
+  padding:10px;
+
+}
+#socialMedia i{
+   color:white;
+   margin-left:10px;
+   font-size:16px;
+   cursor:pointer;
+}
+#socialMedia i:hover{
+  color:orange;
+}
+#searchButton{
+  padding:10px;
+}
+#searchButton input{
+  border:1px solid grey;
+  border-radius:10px;
+  background:transparent;
+  color:white;
+  outline: transparent;
+  padding-left:10px;
+}
+#searchButton i{
+  color:white;
+  margin-left:10px;
+}
+#forTitle{
+  padding-top:20px;
+  text-align:center;
+  padding-bottom:20px;
+  border-bottom:2px solid rgb(61,61,61);
+}
+#forTitle h1{
+  font-family:Times New Roman;
+  font-size:70px !important;
+  margin-bottom:0px;
+
+}
+#forTitle p{
+  font-family:monotype corsiva;
+  color:grey;
+  margin-top:0px;
+  line-height: 2px;
+}
+#forLgMenu{
+  text-align:center;
+}
+#forLgMenu ul{
+  transform: skewX(-15deg);
+}
+#forLgMenu ul li{
+  margin-top:10px;
+  display:inline-block;
+  position: relative;
+  padding-left:15px;
+  padding-right: 10px;
+  
+}
+#forLgMenu ul li a{
+  color:black;
+  font-family:arial;
+  font-size:14px;
+  font-weight:bold;
+  transform: skewX(15deg);
+  display:inline-block;
+
+ }
+ #forSmlMenu i{
+  font-size:26px;
+  margin-top:6px;
+  margin-bottom:6px;
+  margin-left:10px;
+ }
+ #forSmlMenu i:hover{
+  cursor:pointer;
+ }
+ .dropdown-menu{
+   padding-top:10px;
+   padding-bottom:10px;
+   font-family:arial;
+ }
+ .dropdown-menu a:hover{
+  text-decoration: underline;
+ }
+ .forBorder{
+  display: inline-block;
+  border-left:1px solid grey;
+  width:1px;
+  height:15px;
+  position: absolute;
+  top:16px;
+
+ }
+ #cover{
+  background:url("Images/bodyImg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display:cover;
+  border-top:2px solid rgb(61,61,61);
+ }
+ 
+ #forBlackShade{
+  background: rgba(0,0,0,.6);
+  color:white;
+  font-family:arial;
+ }
+ #intro{
+  margin-top:33%;
+  
+ }
+ #intro h2{
+   font-weight: bold;
+ }
+ #intro button{
+  margin-top:10px;
+  padding:9px;
+  background: transparent;
+  border:1px solid white;
+  color:white;
+  cursor:pointer;
+  transition: 1s ease;
+  margin-bottom:25%;
+  
+
+ }
+ #intro button:hover{
+    transform:rotateY(180deg);
+    border-left:1px solid skyblue;
+ }
+ #findMeOn{
+    margin-top:55%;
+    padding:10px;
+    background:rgba(0,0,0,.5);
+    padding-bottom:2px;
+    margin-bottom:50%;
+ }
+@media only screen and (max-width: 1300px){
+  
+#findMeOn p{
+  font-size:14px;
+  }
+}
+@media only screen and (max-width:990px){
+  #intro{
+    margin-top:30% !important;
+  }
+ 
+}
+#aboutTime,#aboutMoney{
+  margin-top:20px;
+  font-family:arial;
+  text-align: center;
+  padding:10px;
+  box-shadow:1px 2px 2px 1px grey;
+  
+}
+#aboutMoney p{
+  margin-top:10px;
+  text-align: left;
+}
+.toBeCentred{
+  text-align: center;
+}
+#aboutTime p{
+  margin-top:10px;
+  text-align: left;
+}
+@media only screen and (max-width: 1300px){
+  #aboutTime,#aboutMoney{
+    height:350px !important;
+  }
+  #aboutTime p{
+    font-size:15px !important;
+
+  }
+  #aboutMoney p{
+    font-size: 15px !important
+  }
+  #freelancer p{
+    font-size:15px !important;
+  }
+  #contactDetails p{
+    font-size:14px !important;
+  }
+  #contactDetails a{
+    font-size:14px !important;
+  }
+  #backG p{
+    font-size:13px !important;
+  }
+  #backG a{
+    font-size:13px !important;
+  }
+}
+#freelancer{
+  height:450px;
+  text-align:center;
+  padding:0px;
+}
+#freelancer img{
+  margin-top:20px;
+}
+#freelancer p{
+  color:white;
+  text-align: left;
+  margin-top:10px;
+  font-style:italic;
+}
+#text{
+  padding-left:20px;
+  padding-right:20px;
+}
+#freelancer button{
+  margin-bottom:20px;
+  box-shadow: 1px 2px 2px 1px grey;
+}
+#myLogo h1{
+  font-family:Times New Roman;
+  color:white;
+}
+#contact{
+  margin-top:20px;
+}
+#noteDesign{
+  position: relative;
+  background:red;
+  height:40px;
+}
+#justForPadding{
+  padding-left:20px;
+  padding-right:20px;
+}
+.design{
+  height:40px;
+  position: absolute;
+  bottom:-10px;
+}
+#frontOne{
+  transform:skewX(-35deg);
+}
+#backOne{
+  transform:skewX(35deg);
+}
+#accountVerification{
+  transform:skewX(-35deg);
+}
+@media only screen and (max-width: 944px){
+  #accountVerification p{
+    font-size:11.4px !important;
+  }
+}
+#backG{
+  margin-top:50px;
+  background-attachment: fixed;
+  font-family:arial;
+  color:white;
+}
+#myPicture{
+  padding: 30px;
+}
+#myPicture img{
+  border-radius: 40%;
+  opacity:0.8;
+}
+#myPicture img:hover{
+  opacity: 1;
+}
+#backG h5{
+  margin-top:30px;
+}
+#backG p{
+  font-size:15px;
+  margin-top:10px;
+}
+#aboutMe p{
+  text-align: left;
+}
+#aboutMe h5{
+  text-align: left;
+}
+#aboutMe i{
+  color:white;
+  margin-left:10px;
+  font-size:15px;
+}
+.forMinusMargin p{
+  margin-top:-10px !important
+}
+#designedBy{
+  padding:10px;
+  text-align: right;
+  color:white;
+  margin-top:10px;
+  border-top:1px solid white;
+}
+#designedBy p{
+  margin-right:20px;
+}
+#thisWillPad{
+  padding:0px;
+}
+
+/* Fron here starts the small designs */
+#smlIntro{
+  text-align: center;
+  font-family:arial;
+}
+#smlIntro p{
+  margin-bottom:0px !important;
+  margin-top:13%;
+}
+#smlIntro h5{
+  font-size:20px;
+}
+#smlIntro button{
+  margin-top:10px;
+  padding:9px;
+  background: transparent;
+  border:1px solid white;
+  color:white;
+  cursor:pointer;
+  transition: 1s ease;
+  margin-bottom:13%;
+
+}
+#smlText{
+  padding-left:10px;
+  padding-right:10px;
+
+}
+@media only screen and (max-width:600px){
+  #smlText p{
+    font-size:12.5px !important;
+  }
+
+  #smlIntro button{
+    font-size:14px !important;
+  }
+}
+.backgroundSml{
+  background:rgba(0,0,0,0.5);
+  padding:10px;
+  margin-top:15px;
+  border-radius:10px;
+}
+#smlIntro button:hover{
+  transform: rotateY(180deg);
+}
+#aboutTimeSml,#aboutMoneySml{
+  padding-top:30px;
+  padding-left:50px;
+  padding-right:50px;
+  font-family:arial;
+}
+.wholeSml{
+  box-shadow:1px 2px 2px 1px grey;
+  padding-top:20px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-bottom:10px;
+  border-top:1px solid grey;
+  text-align: center;
+}
+.wholeSml p{
+  margin-top:20px;
+  text-align: left;
+}
+.wholeSml button{
+  margin-bottom: 20px;
+}
+@media only screen and (max-width:600px){
+  #forTitle h1{
+    font-size:50px !important;
+  }
+  .wholeSml p{
+    font-size:14px !important;
+  }
+  .wholeSml button{
+    font-size:14px !important;
+  }
+  #socialMedia i{
+    font-size:14px !important;
+  }
+  #searchButton input{
+    height:25px !important;
+    font-size:14px !important;
+  }
+  #searchButton i{
+    font-size:14px !important;
+  }
+}
+#aboutMoneySml{
+  margin-bottom:5%;
+}
+@media screen and (max-width: 768px){
+  #backG{
+    text-align:center !important;
+
+  }
+  #aboutMe p{
+    text-align: center !important;
+  }
+  #aboutMe h5{
+    text-align: center !important;
+  }
+  #backG{
+    padding:20px;
+    padding-bottom:0px;
+  }
+  #thisWillPad{
+    padding-left:30px !important;
+    padding-right:30px !important;
+  }
+  #freelancer{
+    box-shadow: 1px 2px 2px 1px grey;
+    border-radius:20px !important;
+  }
+}
+.modal-body p{
+   font-family:arial;
+}
+#forSmlMenu ul li a{
+  font-size:15px;
+}

@@ -1,0 +1,33 @@
+#dd{
+	height:auto;
+}
+#dd ul li{
+	background:rgba(0,0,0,.7);
+}
+#dd ul li a{
+	text-align:center;
+	color:white;
+	font-weight:bold;
+}
+#ff{
+	height:auto;
+	background:rgba(0,0,0,.7);
+}
+#ff h1{
+	color:white;
+}
+#gg{
+	height:auto;
+	background:rgba(0,0,0,.7);
+}
+#gg h1{
+	color:white;
+}
+#hh{
+	height:auto;
+	background:rgba(0,0,0,.7);
+}
+#hh h1{
+	color:white;
+}
+.carousel-item img{height: 500px !important;background-color: red;}
