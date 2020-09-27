@@ -1,0 +1,71 @@
+body{
+	background:url("Images/wholeBG.jpg");
+}
+#forHeading{
+	color:white;
+	padding:10px;
+}
+#theWhole{
+	width:75%;
+	margin:0 auto;
+	border:1px solid white;
+	padding:10px;
+}
+#theWhole img{
+	height:110px;
+	width:80px;
+	margin:10px;
+}
+#forHeading{
+	text-align:center;
+	border:1px solid white;
+}
+#forBack{
+	background:url("Images/background.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+#forBody{
+	border:1px solid white;
+	padding:10px;
+	display:flex;
+	height:350px;
+	text-align: center;
+	justify-content: space-around;
+	
+}
+#forBody div{
+	flex:1;
+}
+#forYou,#forBot{
+	border:1px solid white;
+	padding:10px;
+	color:white;
+	
+}
+#forButtons{
+	justify-content: space-around;
+	padding:10px;
+	display: flex;
+	margin-left:10px;
+}
+#sep{
+	border:1px solid white;
+	padding:5px;
+}
+#forTable{
+	display: flex;
+	justify-content: space-around;
+	padding:10px;
+
+}
+table{
+	text-align: center;
+	padding:10px;
+    border:1px solid white;
+    color:white;
+}
+tr,th,td{
+	border:1px solid white;
+	padding:10px;
+}

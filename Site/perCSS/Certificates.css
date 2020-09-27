@@ -1,3 +1,64 @@
+html{
+	scroll-behavior: smooth;
+}
 #aboutMenu{
 	border-bottom:2px solid rgb(64,64,64);
+}
+#myCertificate,#noCert img{
+	border-radius:10px;
+	margin-top:20px;
+	box-shadow: 1px 2px 2px 1px grey;
+}
+#myCertificate,#noCert img:hover{
+	cursor: pointer;
+}
+#courseDes,#noCertCourseDis{
+	font-family: Arial;
+}
+#courseDes,#noCertCourseDis h3{
+	margin-top:30px;
+}
+#myCertificateSml{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	text-align: center;
+}
+#myCertificateSml img{
+	border-radius:20px;
+	box-shadow: 1px 2px 2px 1px grey;
+}
+#courseDesSml{
+	text-align: center;
+	font-family:arial;
+	padding:20px;
+	padding-bottom:0px;
+}
+#courseDesSml p{
+    text-align:left;
+}
+@media only screen and (max-width:1100px){
+     #courseDes h3{
+     	font-size:20px !important;
+     }
+     #courseDes p{
+     	font-size:14px !important;
+     }
+     #courseDes button{
+     	font-size:14px !important;
+     }
+}
+#noCertSml{
+	padding:20px;
+	padding-bottom:0px;
+	text-align: center;
+}
+#noCertSml img{
+	border-radius:20px;
+}
+#noCertSml button{
+	margin-top:10px;
+}
+.modal-body{
+	font-family:arial;
 }

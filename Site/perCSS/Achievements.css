@@ -1,0 +1,39 @@
+html{
+	scroll-behavior: smooth;
+}
+#achMenu{
+	border-bottom:2px solid rgb(64,64,64);
+}
+.clones{
+	font-family:Arial;
+	margin-top:20px;
+}
+.clones h5{
+	text-align:center;
+}
+.clones img{
+	margin-top:10px;
+	border-radius:20px;
+}
+.clones button{
+	font-size:14px;
+}
+#majorProj{
+	font-family:Arial;
+}
+#majorProj{
+    margin-top:20px;
+    text-align:center;
+}
+#majorProj img{
+	border-radius:20px;
+	box-shadow:1px 2px 2px 1px grey;
+}
+#majorProj button{
+	margin-top:20px;
+	font-size:14px;
+}
+.centraLize{
+	margin-top:10px;
+	text-align: center;
+}
