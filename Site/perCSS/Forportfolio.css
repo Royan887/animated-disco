@@ -24,6 +24,7 @@ html{
   color:white;
   outline: transparent;
   padding-left:10px;
+  width:70%;
 }
 #searchButton i{
   color:white;
@@ -91,6 +92,21 @@ html{
  .dropdown-menu a:hover{
   text-decoration: underline;
  }
+@media only screen and (min-width: 768px){
+   #cover{
+   background:url("Images/bodyImg.jpg");
+   background-repeat: no-repeat;
+   display:cover;
+   border-top:2px solid rgb(61,61,61);
+   background-size: 100%;
+   
+   }
+ }
+ @media only screen and (max-width: 768px){
+  #cover{
+    background: url("Images/bodyImg.jpg");
+  }
+ }
  .forBorder{
   display: inline-block;
   border-left:1px solid grey;
@@ -100,14 +116,6 @@ html{
   top:16px;
 
  }
- #cover{
-  background:url("Images/bodyImg.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display:cover;
-  border-top:2px solid rgb(61,61,61);
- }
- 
  #forBlackShade{
   background: rgba(0,0,0,.6);
   color:white;
@@ -153,7 +161,6 @@ html{
   #intro{
     margin-top:30% !important;
   }
- 
 }
 #aboutTime,#aboutMoney{
   margin-top:20px;
@@ -357,8 +364,8 @@ html{
 }
 #aboutTimeSml,#aboutMoneySml{
   padding-top:30px;
-  padding-left:50px;
-  padding-right:50px;
+  padding-left:20px;
+  padding-right:20px;
   font-family:arial;
 }
 .wholeSml{
@@ -434,4 +441,7 @@ html{
 #aboutMe i:hover{
   color:orange;
   cursor:pointer;
+}
+#aboutTimeSml{
+
 }

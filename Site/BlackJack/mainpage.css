@@ -23,7 +23,6 @@ body{
 #forBack{
 	background:url("Images/background.jpg");
 	background-size:100%;
-	background-repeat: no-repeat;
 }
 #forBody{
 	border:1px solid white;
@@ -33,6 +32,11 @@ body{
 	text-align: center;
 	justify-content: space-around;
 	
+}
+@media only screen and (max-width:780px){
+	#forBody{
+		height:600px;
+	}
 }
 #forBody div{
 	flex:1;
