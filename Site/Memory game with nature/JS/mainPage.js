@@ -4,6 +4,7 @@
 	const gameEnd=new Audio("Sounds/gameEnd.mp3");
 	const matchFound=new Audio("Sounds/matchFound.mp3");
 	var sfxCheck=document.querySelector("#rb2");
+	var sfxSmallCheck=document.querySelector("#rb2sml")
 	const gameSound=document.querySelector("#gameSound");
 	var count=1;
 	var cardList=[
@@ -127,7 +128,7 @@
 	function flipCard(){
 		var singleCardId=this.getAttribute("data-id");
 		if(checkList[singleCardId]["clicked"]===false){
-			if(sfxCheck.checked===true){
+			if(sfxCheck.checked===true && sfxSmallCheck.checked===true){
 				mouse.play();
 			}
 			checkList[singleCardId]["clicked"]=true;
@@ -144,7 +145,7 @@
 		var option1=cardNames[0];
 		var option2=cardNames[1];
 		if(option1===option2){
-			if(sfxCheck.checked===true){
+			if(sfxCheck.checked===true && sfxSmallCheck.checked===true){
 				matchFound.play();
 			}
 			allBoxes[cardId[0]].setAttribute("src","Images/Edited/blank1.png");
@@ -155,7 +156,7 @@
 			scoreDisplay();
 		}
 		else{
-			if(sfxCheck.checked===true){
+			if(sfxCheck.checked===true && sfxSmallCheck.checked===true){
 				noMatch.play();
 			}
 			alert("Sorry, Match not made");
@@ -175,7 +176,7 @@
 		else{
 			document.querySelector("#score").textContent="Level Unlocked";
 			gameSound.pause();
-			if(sfxCheck.checked===true){
+			if(sfxCheck.checked===true && sfxSmallCheck.checked===true){
 				gameEnd.play();
 			}
 			document.querySelector(".nextLevel").style.visibility="visible";
